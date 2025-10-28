@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #24292e;
+  color: white;
+  padding: 10px 16px;
+  gap: 12px;
+}
+
+.header input {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.header button {
+  background-color: #58a6ff;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.editor {
+  flex: 1;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #f6f8fa;
+  min-height: 0;
+}
+
+.footer {
+  padding: 8px 12px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  background: #fff;
+}
